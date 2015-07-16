@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "kut",
+	"version": "1",
+	"permissions": [ "hid", {
+				"usbDevices": [ { "vendorId": 5538, "productId": 115 } ]
+			}
+	],
+	"app": {
+		"background": {
+			"scripts": ["kut.js"]
+		}
+	},
+	"minimum_chrome_version": "28"
+}
